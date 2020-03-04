@@ -1,0 +1,77 @@
+:root {
+    --color-gray: #2f2f2f;
+}
+header {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(47, 47, 47, 0.1);
+}
+header nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+
+header nav .logo a.brand-logo {
+    text-decoration: none;
+    color: var(--color-gray);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 1rem;
+    color: var(--color-gray);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header section End */
+.banner {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-gray);
+}
+.banner .banner-content h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.banner .banner-content p.banner-description {
+    margin-top: 1rem;
+}
+
+main.documentation {
+    width: 80%;
+    margin: auto;
+}
+
+main.documentation .row {
+    padding: 3rem;
+}
+
+main.documentation .row h3 {
+    font-size: 2rem;
+    color: var(--color-gray);
+    margin: 2rem auto;
+}
+
+main.documentation .row .js-code {
+    background-color: rgb(248, 248, 248);
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    padding: 5px;
+    font-family: 'Inconsolata';
+    color: var(--color-gray);
+}
+main.documentation .row .code-row {
+    margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+.font-Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.horizontal-line {
+    content: '';
+    display: block;
+    background-color: rgba(47, 47, 47, 0.1);
+    height: 1px;
+    width: 80%;
+    margin: auto;
+}
+.tab-4 {
+    margin-left: 2rem;
+}
+
+.font-code-red {
+    color: #e74c3c;
+}
+
+.font-code-blue {
+    color: #3498db;
+}
