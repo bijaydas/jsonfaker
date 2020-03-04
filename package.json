@@ -7,7 +7,8 @@
     "scripts": {
         "test": "nodemon index",
         "lint": "./node_modules/.bin/eslint .",
-        "lint-fix": "eslint . --fix"
+        "lint-fix": "eslint . --fix",
+        "start": "node index"
     },
     "keywords": [],
     "author": "Bijay Das",
