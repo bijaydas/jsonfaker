@@ -2,4 +2,3 @@ node_modules
 package-lock.json
 NOTES2ME.md
 push-git.sh
-db
