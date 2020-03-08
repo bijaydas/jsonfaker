@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Raleway|Inconsolata&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/helper.css">
         <link rel="stylesheet" href="css/master.css">
@@ -41,7 +42,7 @@
                 <p class="font-Raleway">JSON Faker is a free online REST API that you can use whenever you need some fake data.</p>
             </div>
             
-            <div class="row">
+            <div class="row dis-0">
                 <h3 class="font-Raleway">Example</h3>
                 <p class="font-Raleway">Run this code from any console</p>
                 
@@ -59,9 +60,26 @@
             </div>
             
             <div class="row">
+                <h3 class="font-Raleway">Example</h3>
+                <p class="font-Raleway">Run this code from any console</p>
+                
+                <div class="js-code">
+                    <pre>
+                        <code class="javascript hljs">
+                            <div class="code-row">fetch('http://jsonfaker.ap-south-1.elasticbeanstalk.com/users')</div>
+                            <div class="code-row tab-4">.then(response => response.json())</div>
+                            <div class="code-row tab-4">.then(json => console.log(json))</div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            
+            <div class="row">
                 <h3 class="font-Raleway">Routes</h3>
                 
             </div>
         </main>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+        <script src="js/master.js" charset="utf-8"></script>
     </body>
 </html>
