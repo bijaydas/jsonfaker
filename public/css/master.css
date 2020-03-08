@@ -78,16 +78,13 @@ main.documentation .row .code-row {
 
 /* Routes */
 
-main.documentation .row .api-routes ul li {
-    line-height: 1.4rem;
-}
-
-main.documentation .row .api-routes ul li a {
-    text-decoration: none;
+main.documentation .row .api-routes table {
+    width: 40%;
     font-size: 1.2rem;
     font-family: 'Inconsolata';
+    color: var(--color-gray);
 }
 
-main.documentation .row .api-routes ul li a:not(.lnk-stop):hover {
-    text-decoration: underline;
+main.documentation .row .api-routes a {
+    text-decoration: none;
 }
