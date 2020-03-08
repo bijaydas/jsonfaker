@@ -76,7 +76,7 @@
             
             <div class="row">
                 <h3 class="font-Raleway">Resources</h3>
-                <div class="api-routes">
+                <div class="api-resources">
                     <table>
                         <tr>
                             <td><a class="lnk-font-blue" target="_blank" href="/users">/users</a></td>
@@ -93,6 +93,46 @@
                     <b>Note: </b> Resources are related with each other. Ex.
                     Users has comments and photos. And those can be
                     accessed via their ids.
+                </div>
+            </div>
+            
+            <div class="row">
+                <h3 class="font-Raleway">Routes</h3>
+                <div class="api-routes">
+                    <table>
+                        <tr>
+                            <td>GET</td>
+                            <td><a class="lnk-font-blue" target="_blank" href="/users">/users</a></td>
+                        </tr>
+                        <tr>
+                            <td>GET</td>
+                            <td><a class="lnk-font-blue" target="_blank" href="/users/1">/users/1</a></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>GET</td>
+                            <td><a class="lnk-font-blue" target="_blank" href="/comments">/comments</a></td>
+                        </tr>
+                        <tr>
+                            <td>GET</td>
+                            <td><a class="lnk-font-blue" target="_blank" href="/comments?comment_id=45923">/comments?comment_id=45923</a></td>
+                        </tr>
+                        <tr>
+                            <td>GET</td>
+                            <td><a class="lnk-font-blue" target="_blank" href="/comments?user_id=1">/comments?user_id=1</a></td>
+                        </tr>
+                        <tr>
+                            <td>GET</td>
+                            <td>
+                                <a
+                                    class="lnk-font-blue"
+                                    target="_blank"
+                                    href="/comments?user_id=1&comment_id=45923">
+                                    /comments?user_id=1&comment_id=45923
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </main>
