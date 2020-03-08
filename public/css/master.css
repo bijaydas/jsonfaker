@@ -88,3 +88,8 @@ main.documentation .row .api-routes table {
 main.documentation .row .api-routes a {
     text-decoration: none;
 }
+
+main.documentation .row .note {
+    margin-top: 2rem;
+    color: var(--color-gray);
+}
