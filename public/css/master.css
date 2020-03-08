@@ -75,3 +75,14 @@ main.documentation .row .js-code {
 main.documentation .row .code-row {
     margin-top: 10px;
 }
+
+/* Routes */
+
+main.documentation .row .api-routes ul li {
+    line-height: 1.4rem;
+}
+
+main.documentation .row .api-routes ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}

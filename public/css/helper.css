@@ -20,6 +20,12 @@
 .font-code-blue {
     color: #3498db;
 }
+.lnk-font-blue {
+    color: #0984e3;
+}
+.lnk-stop {
+    color: #636e72;
+}
 .dis-0 {
     display: none;
 }
