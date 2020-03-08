@@ -85,4 +85,9 @@ main.documentation .row .api-routes ul li {
 main.documentation .row .api-routes ul li a {
     text-decoration: none;
     font-size: 1.2rem;
+    font-family: 'Inconsolata';
+}
+
+main.documentation .row .api-routes ul li a:not(.lnk-stop):hover {
+    text-decoration: underline;
 }
