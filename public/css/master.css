@@ -6,6 +6,7 @@ header {
     font-size: 1.3rem;
     border-bottom: 1px solid rgba(47, 47, 47, 0.1);
 }
+
 header nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -40,6 +41,7 @@ header nav ul li a {
     align-items: center;
     color: var(--color-gray);
 }
+
 .banner .banner-content h1 {
     font-size: 3rem;
     text-align: center;
@@ -72,6 +74,7 @@ main.documentation .row .js-code {
     font-family: 'Inconsolata';
     color: var(--color-gray);
 }
+
 main.documentation .row .code-row {
     margin-top: 10px;
 }
@@ -103,4 +106,8 @@ main.documentation .row .api-routes table {
 
 main.documentation .row .api-routes table a {
     text-decoration: none;
+}
+
+main.documentation .row .api-routes table tr td {
+    padding: .30rem;
 }
