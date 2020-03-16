@@ -42,23 +42,6 @@
                 <p class="font-Raleway">JSON Faker is a free online REST API that you can use whenever you need some fake data.</p>
             </div>
             
-            <div class="row dis-0">
-                <h3 class="font-Raleway">Example</h3>
-                <p class="font-Raleway">Run this code from any console</p>
-                
-                <div class="js-code">
-                    <div class="code-row">
-                        fetch('<span class="font-code-red">http://jsonfaker.ap-south-1.elasticbeanstalk.com/users</span>')
-                    </div>
-                    <div class="code-row tab-4">
-                        .then(response => response.json())
-                    </div>
-                    <div class="code-row tab-4">
-                        .then(json => <span class="font-code-blue">console</span>.log(json))
-                    </div>
-                </div>
-            </div>
-            
             <div class="row">
                 <h3 class="font-Raleway">Example</h3>
                 <p class="font-Raleway">Run this code from any console</p>
@@ -66,7 +49,7 @@
                 <div class="js-code">
                     <pre>
                         <code class="javascript hljs">
-                            <div class="code-row">fetch('http://jsonfaker.ap-south-1.elasticbeanstalk.com/users')</div>
+                            <div class="code-row">fetch('https://jsonfaker.herokuapp.com/users')</div>
                             <div class="code-row tab-4">.then(response => response.json())</div>
                             <div class="code-row tab-4">.then(json => console.log(json))</div>
                         </code>
@@ -185,7 +168,12 @@
                     </table>
                 </div>
             </div>
+            
         </main>
+        <footer class="row font-Raleway">
+            <p>Coded and built with ❤️ by <a href="https://github/bijaydas">bijaydas</a></p>
+            <p>Source code and changelog is available at GitHub</p>
+        </footer>
         
         <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
         <script src="js/master.js" charset="utf-8"></script>

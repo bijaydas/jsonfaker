@@ -111,3 +111,11 @@ main.documentation .row .api-routes table a {
 main.documentation .row .api-routes table tr td {
     padding: .30rem;
 }
+
+footer {
+    height: 30vh;
+    background-color: #E7E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
