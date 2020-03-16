@@ -107,6 +107,9 @@ main.documentation .row .api-routes table {
 main.documentation .row .api-routes table a {
     text-decoration: none;
 }
+main.documentation .row .api-resources table tr td {
+    padding: .30rem;
+}
 
 main.documentation .row .api-routes table tr td {
     padding: .30rem;
