@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const PORT = process.env.PORT || 8080;
 const configRoutes = require('./configs/routes');
 
@@ -8,6 +9,7 @@ const comments = require('./routes/api/comments');
 const images = require('./routes/api/images');
 const todos = require('./routes/api/todos');
 
+app.use(cors());
 app.use(express.static('public'));
 
 app.use(configRoutes.users, users);
